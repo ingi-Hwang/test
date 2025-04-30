@@ -1,0 +1,48 @@
+/** Common */
+body {
+  margin: 0;
+}
+.wrapper {
+  /* background-color: red; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 700px;
+  flex-direction: column;
+  border: 2px solid black;
+  background-color: skyblue;
+  /* margin-top: 8rem; */
+}
+.login_dp {
+  /* margin: 1rem 0rem; */
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+}
+.input_column {
+  display: flex;
+  flex-direction: column;
+}
+.id {
+  width: 200px;
+  height: 30px;
+}
+.passwd {
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+}
